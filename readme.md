@@ -31,9 +31,11 @@ We'll be using the following as an example:
 // link jQuery
 <script type="text/javascript" src="path/to/plugin.js"></script>
 <script type="text/javascript" src="path/to/main.js"></script>
-...
+```
 
 ## Alert
+
+![Image of Alert Notification](http://i.imgur.com/E0emSY2.png)
 
 To receive your standard alert notification, simply target the ID of your link, and call the alert function from inside our `main.js` file
 ```
@@ -44,6 +46,8 @@ $('#my-link').alertMsg();
 
 ## Warning
 
+![Image of Warning Notification](http://i.imgur.com/i1wSQhr.png)
+
 To trigger a warning, simply target the ID of your link, and call the warning function from inside our `main.js` file
 ```
 ...
@@ -53,6 +57,7 @@ $('#my-link').warningMsg();
 
 ## Error
 
+![Image of Error Notification](http://i.imgur.com/E9lYFQl.png?1)
 To notify the user of an error, attach the error function to the target link from inside our `main.js` file
 ```
 ...
@@ -61,6 +66,8 @@ $('#my-link').errorMsg();
 ```
 
 ## Success
+
+![Image of Success Notification](http://i.imgur.com/fLB4wmt.png)
 
 To notify the user that a task was successful, call the success function on your target element from inside the `main.js` file
 ```
